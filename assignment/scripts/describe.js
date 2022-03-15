@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// we create the variable 'name' and we set the variable as 'Dane'.
+// we check if the 'name' is set to 'Mary'. 'name' does not set to 'Mary' so we console log the script 'How do you do?'.
 // 
 //
 
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create the variable 'secret'.
+// we create the variable 'code' and set it to the number 123.
+// we check if the variable 'code' is set to 123. code=123 so we set the variable 'secret' to 'super' and multiply the value of 'code' by 2. 'code' is now set to 246.
+// we check if the value of 'code' is greater than 250. 246 is less than 250 so 'secret' is set to 'duper'
+// we console.log 'secret' and it prints 'duper' in the console
 
 //CODE
 /*
@@ -70,10 +71,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we create the variable 'isStudent' and set it to the number true.
+// we create the variable 'age' and set it to 34
+// we create the variable 'zip' and set it to 55407
+// we check if 'isStudent' is true and if 'zip' is greater than 80000. 'isStudent' is true but 'zip' is less than 80000,
+// so we check if 'isStudent' is false and if 'age' is less than 30. 'isStudent' is true and 'age' is greater than 30,
+// so we check if 'isStudent' is true. It is so we console log 'Welcome to Prime!'
 
 //CODE
 /*
@@ -130,9 +133,19 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX colorOne should be 'blue' and colorTwo should be 'red'
+//let colorOne = 'blue'
+//let colorTwo = 'red'
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+//FIX if mix is true colorOne and colorTwo should both be set to purple.
+//if (mix === true) {
+// colorOne = 'purple';
+// colorTwo = 'purple';
+// }
 
 if (mix === true) {
   colorOne = 'purple';
@@ -145,7 +158,14 @@ if (mix === true) {
 
 /*
 let temp = 40;
+//Fix time should be a variable not a constant
+//let time = 4;
 const time = 4;
+
+//Fix to apply two conditions you use && not ||
+// if (temp > 39 && time >=4) {
+//  console.log('throw away the food!');
+//}
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -158,7 +178,16 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+//Fix time should be a variable not a constant
+//let minAge = 21;
 const minAge = 21;
+
+//Fix to check if age is greater than or equal to minAge we need to type
+//if(age >= minAge)
+//we also need to change the script in the console.log to 'enter' and remove the else code
+//if(age >= minAge) {
+//console.log('enter)
+//}
 
 if(minAge <= age) {
   console.log('no entry');
@@ -166,4 +195,5 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
+
 
