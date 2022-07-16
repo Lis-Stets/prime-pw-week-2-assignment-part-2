@@ -75,7 +75,7 @@ if (number >= 2) {
 */
 ```
 
-
+ 
 ### Assignment Submission
 Check in your repo, then turn in your work via the <a target="_blank" href="https://portal.primeacademy.io/#/student/assignments">Prime Academy Assignment Portal</a>, as usual and don't hesitate to hit up the Slack channel as needed!
 
